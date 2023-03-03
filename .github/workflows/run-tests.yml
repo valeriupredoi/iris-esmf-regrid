@@ -2,6 +2,7 @@ name: Test
   push:
     branches:
       - main
+      - add_Github_Actions
   schedule:
     - cron: '0 0 * * *'  # nightly
 
